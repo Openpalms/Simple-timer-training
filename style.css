@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(23, 43, 43);
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.container{
+    width:60%;
+    height:100%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.timer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.__block{
+    width: 150px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.time{
+    background-color: rgb(91, 91, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 170px;
+    width: 170px;
+    font-size: 95px;
+}
+.title{
+    background-color: rgb(50, 117, 241);
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    color: white;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+.button{
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    width: 180px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(67, 155, 233);
+    border-radius: 5%;
+}
+.start, .stop{
+    color: rgb(91, 91, 248);
+
+}
+.start:hover {
+    background-color: rgb(50, 117, 241);
+    color: white;
+}
+.stop:hover {
+    background-color: rgb(50, 117, 241);
+    color: white;
+}
+.pause:hover{
+background-color: rgb(90, 124, 197);
+color: white;
+}
+
+.results__block{
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: 250px;
+    border: 1px solid rgb(1, 3, 14);
+    color: rgb(50, 117, 241);
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 240px;
+    text-align: center;
+    
+}
+.results__info{
+    margin:10 0;
+
+}
